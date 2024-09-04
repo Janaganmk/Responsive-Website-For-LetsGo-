@@ -1,0 +1,526 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    position:sticky;
+    top:0;
+    z-index: 2;
+}
+
+
+nav{
+    background-color: rgba(52, 207, 168, 0.867);
+    padding: 40px;  
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+ul,li,h1{
+    display:inline;
+}
+
+ul{
+    margin-left: 30%;
+}
+
+a{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+
+}
+button:hover{
+    background-color: white;
+    color: rgba(52, 207, 168, 0.867);
+}
+
+a:hover{
+    background-color: white;
+    color: rgba(52, 207, 168, 0.867);
+}
+
+.poster{
+    width: 100%;
+    height:125%;  
+    position:relative;
+    z-index: 1;
+}
+
+.text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    right: 40px;
+    top: 100px;
+}
+
+.he1, .he2{
+    padding-bottom: 20px;
+}
+
+
+
+.para{
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    z-index: 2;
+    top: 880px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 15px;
+}
+
+.h2{
+    color: lightblue;
+    padding-bottom: 10px;
+}
+
+.aboutus{
+    padding: 25px;
+    border: none;
+}
+
+.cakeimg img{
+    width: 350px;
+    height: 350px;
+    margin: 25px;
+    float: left;
+    border:  solid 4px rgba(52, 207, 168, 0.867);
+    border-radius: 10px;
+}
+
+
+.abouttext{
+    padding: 20px;
+    margin: 50px;
+    border: solid rgba(52, 207, 168, 0.867) 4px;
+    border-radius:20px;
+}
+
+.abouttext h3{
+    padding-bottom: 15px;
+    font-size: 28px;
+}
+
+.abouttext p{
+    font-size: 18;
+}
+
+.health{
+    padding: 10px;
+}
+.health img{
+    border: none;
+    width:100px;
+    height: 100px;
+}
+
+.health p{
+    padding-top: 10px;   
+}
+
+.health h2{
+    padding-top: 25px; 
+    font-size: 30px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.container{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 15vmax;
+}
+
+.img7{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 140px;
+    float: left;
+}
+
+.exp{
+    position: relative;
+    left:15px;
+    top:12px;
+}
+
+.exp h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 60px;
+}
+
+.exp h2{
+    font-family: 'poppins';
+    font-size: 35px;
+    padding-left:30px;
+}
+
+.img6{
+    width: 100px;
+    height: 100px;
+    margin-top: -70px;
+    margin-left: 280px;
+    float: left;
+}
+
+.clients{
+    position: relative;
+    left:25px;
+    top:-50px;
+}
+
+.clients h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.clients h2{
+    font-family: 'poppins';
+    font-size: 35px;
+}
+
+.img8{
+    width: 100px;
+    height: 100px;
+    margin-top:-130px;
+    margin-left:900px;
+    float: left;
+}
+
+.project{
+    position: relative;
+    left:1030px;
+    top:-110px;
+}
+
+.project h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.project h2{
+    font-family: 'poppins';
+    font-size: 35px;
+}
+
+.menu{
+    padding: 25px;
+    border: none;
+}
+
+
+
+.btn{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.img9 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.bday-cake{
+    border: solid 4px rgba(52, 207, 168, 0.867);
+    width: 220px;
+    height: 330px;
+    margin-top: 70px;
+    margin-left: 170px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    float: left;
+}
+
+.img10{
+    width: 200px;
+    height: 200px;
+}
+
+.wed-cake{
+    border: solid 4px rgba(52, 207, 168, 0.867);
+    width: 220px;
+    height: 330px;
+    margin-top: 70px;
+    margin-left: 170px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    float: left;
+    display: none;
+}
+
+.aboutcake{
+    background-color: rgb(228,165,48);
+    width: 300px;
+    height: 250px;
+    position: relative;
+    padding: 25px;
+    display: inline-block;
+    left: 140px;
+    top: 90px;
+    border: 3px solid rgb(228,165,48);
+    border-radius: 10px;
+}
+
+.bday{
+    position: relative;
+    text-align: center;
+}
+
+.bday h1{
+    color:white;
+    padding: 15x;
+}
+
+.bday p{
+    color:white;
+    padding-top: 15px;
+}
+
+.aboutcake2{
+    background-color: rgb(228,165,48);
+    width: 300px;
+    height: 250px;
+    position: relative;
+    padding: 25px;
+    display: inline-block;
+    left: 140px;
+    top: 90px;
+    border: 3px solid rgb(228,165,48);
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.aboutcake3{
+    background-color: rgb(228,165,48);
+    width: 300px;
+    height: 250px;
+    position: relative;
+    padding: 25px;
+    display: inline-block;
+    left: 140px;
+    top: 90px;
+    border: 3px solid rgb(228,165,48);
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.offer{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    padding: 130px;
+}
+
+.offer h1{
+    color: rgb(228,165,48);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.offer button{
+    background-color:rgb(228,165,48);
+}
+
+.offer button:hover{
+    background-color: white;
+}
+
+.payment{
+    padding-top: 55px;
+    border: none;
+}
+.cookies{
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+.cookies img{
+    width: 100%;
+    height: 600px;
+    opacity: 0.6;
+}
+
+.incookies{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 80px;
+    left: 450px;
+    padding: 25px;
+}
+
+.incookies h2{
+    padding: 15px;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.incookies p{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.incookies button{
+    padding: 15px;
+    background-color: rgb(228,165,48);
+    border-radius: 5px;
+}
+
+.contact{
+    position: relative;
+}
+
+.cakeclub{
+    background-color: rgb(228,165,48);
+    color: white;
+    width: 300px;
+    height: 300px;
+    border: 4px rgb(228,165,48)solid;
+    border-radius: 15px;
+    position: relative;
+    bottom: 210px;
+    left:50px;
+}
+.info{
+    color: white;
+    padding: 26px;
+    text-align: left;
+}
+.info h2{
+    font-size: 45px;
+    font-family:fantasy;
+}
+
+.info p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.end{
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    position:relative;
+    bottom: 0px;
+    z-index: 1;
+    padding: 30px;
+}
+
+.end h1{
+    color:rgb(228,165,48);
+    font-family: 'poppins';
+    font-size: 32px;
+    padding: 10px;
+    padding-left: 30%;
+}
+.end h4{
+    color:white;
+    padding-bottom: 4px;
+    padding-left: 30%;
+}
+
+.img11 button{
+    background-color: black;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.img11 button img{
+    width: 25px;
+    height: 25px;
+}
+
+.img11 button:hover{
+    background-color: rgb(228,165,48);
+}
+
+.img11{
+    position:absolute;
+    bottom: 150px;
+    left: 31%;
+}
+
+.img12{
+    bottom: 150px;
+    left: 34%;
+}
+
+.img13{
+    bottom: 150px;
+    left: 36%;
+}
+
+.links{
+    position:absolute;
+    bottom: 50px;
+    left: 60%;
+    padding: 25px;
+    
+}
+
+.links h2{
+    font-size: 32px;
+    font-family: 'poppins';
+    color: rgb(228,165,48);
+}
+
+.links h4{
+    font-size: 18px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.links h4:hover{
+    color: rgb(228,165,48);
+}
